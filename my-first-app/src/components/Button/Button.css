@@ -1,0 +1,77 @@
+.primary{
+    background-color: #2231AA;
+    width: 132px;
+    height: 56px;
+    padding: 16px 32px 16px 32px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 2px;
+    border: none;
+    margin: 30px 30px 30px 30px;
+}
+
+.primary_hover{
+    background-color: #5360CD;
+    width: 132px;
+    height: 56px;
+    padding: 16px 32px 16px 32px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 2px;
+    border: none;
+    margin: 30px 30px 30px 30px;
+}
+
+.secondary{
+    background-color:#E8E8E8;
+    width: 160px;
+    height: 56px;
+    padding: 16px 32px 16px 32px;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 2px;
+    border: none;
+    margin: 30px 30px 30px 30px;
+}
+
+.secondary_hover{
+    background-color: #DADADA;
+    width: 160px;
+    height: 56px;
+    padding: 16px 32px 16px 32px;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 2px;
+    border: none;
+    margin: 30px 30px 30px 30px;
+}
+
+.secondary_two{
+    background-color: #fffcfc;
+    width: 174px;
+    height: 56px;
+    padding: 16px 32px 16px 32px;
+    color: #FD3419;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 2px;
+    border: none;
+    margin: 30px 30px 30px 30px;
+}
+
+.secondary_two_hover{
+    background-color: #fffcfc;
+    border: 1px solid #DADADA;
+    width: 174px;
+    height: 56px;
+    padding: 16px 32px 16px 32px;
+    color: #FD3419;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 2px;
+    margin: 30px 30px 30px 30px;
+}
