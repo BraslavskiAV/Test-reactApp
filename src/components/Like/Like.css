@@ -1,0 +1,38 @@
+.block-rating{
+  width: 740px;
+  display: flex;
+  height: 65px;
+  margin-top: 20px;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.207);
+}
+
+.button-like{
+  border-style: none;
+  background-color: transparent;
+}
+
+.button-dislike{
+  border-style: none;
+  background-color: transparent;
+}
+
+.like-count{
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.like-container{
+  display: flex;
+  align-items: center;
+  width: 145px;
+  height: 24px;
+}
+
+.more{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 72px;
+  height: 24px;
+}

@@ -1,0 +1,57 @@
+.tab{
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  border: none;
+}
+
+.tabs{
+  width: 100%;
+}
+
+.tabs-container{
+  display: flex;
+  border-bottom: 1px solid #DADADA;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 64px;
+}
+
+.title-blog{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 72px;
+  margin-bottom: 40px;
+  font-size: 56px;
+  font-weight: 700;
+  font-family: inter;
+}
+
+.myTab{
+  color: black;
+  border: none; 
+  outline: none;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.all{
+  width: 100px;
+  height: 48px;
+  padding: 0px, 40px, 24px, 40px;
+  border-bottom: 1px solid black;
+}
+
+.favorite{
+  width: 176px;
+  height: 48px;
+  padding: 0px, 40px, 24px, 40px;
+}
+
+.popular{
+  width: 140px;
+  height: 48px;
+  padding: 0px, 40px, 24px, 40px;
+}
