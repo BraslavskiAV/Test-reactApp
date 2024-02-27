@@ -2,7 +2,7 @@
 import Icon from '../../assets/Icon-Menu.png'
 import Search from '../../assets/search 1.png'
 
-export default function Header({ children, name }: { children: string, name: string }) {
+export default function Header({ children, name }: { children?: string, name?: string }) {
 
   return (
     <>

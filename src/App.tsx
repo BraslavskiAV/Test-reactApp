@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-      <div className='buttons'>
+      {/* <div className='buttons'>
         <Button typeButton='myButton primary'
                 isDisabled={false}
                 clickFunction={alertOne}>Primary</Button>
@@ -30,7 +30,7 @@ function App() {
                 isDisabled={false}
                 clickFunction={alertThree}>Secondary 2</Button>
       </div>
-      {/* */}
+
       <div className='buttons'>
         <Button typeButton='myButton primary_hover'
                 isDisabled={false}
@@ -42,7 +42,7 @@ function App() {
                 isDisabled={false}
                 clickFunction={alertThree}>Secondary 2</Button>
       </div>
-      {/* */}
+      
       <div className='buttons'>
         <Button typeButton='myButton primary'
                 isDisabled={true}
@@ -77,7 +77,7 @@ function App() {
               typeButton='myTab favorite'>My favorites</Tabs>
         <Tabs isDisabled={true}
               typeButton='myTab popular'>Popular</Tabs>
-      </div>
+      </div> */}
     </>
   );
 }

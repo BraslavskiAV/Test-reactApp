@@ -1,0 +1,41 @@
+.post-main{
+  width: 100%;
+}
+
+.post-container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.title-post{
+  font-family: Inter;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 70px;
+  width: 100%;
+  text-align: center;
+}
+
+.image{
+  width: 100%;
+}
+
+.page-image{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.post-text{
+  width: 85%;
+  margin: 0 auto;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 20px;
+}

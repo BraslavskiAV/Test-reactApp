@@ -1,13 +1,7 @@
-import Astro from '../../assets/fe2406480a136180247e955f197ca67e.png'
+import Iblog from '../interfaces/BlogInterface'
 
 
-interface Iblog {
-  date: any,
-  title: string,
-  subtitle: string,
-}
-
-export default function Blog({ date, title, subtitle }: Iblog) {
+export default function BiggestBlog({ date, title, subtitle, source}: Iblog) {
   return (
     <>
       <div className="block-text">
@@ -17,7 +11,7 @@ export default function Blog({ date, title, subtitle }: Iblog) {
           <p className="subtitle">{subtitle}</p>
         </div>
         <div className="img">
-          <img src={Astro} alt='astro' className='astro'></img>
+          <img src={source} className='astro'></img>
         </div>
       </div>
     </>
