@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Head from './pages/Main';
 import Poster from './pages/Poster';
+import AddPost from './pages/AddPost'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -12,6 +13,7 @@ root.render(
   <React.StrictMode>
     <Head />
     <Poster />
+    <AddPost />
     <App />
   </React.StrictMode>
 );

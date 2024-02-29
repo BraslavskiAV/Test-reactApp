@@ -14,9 +14,8 @@
   line-height: 80px;
   letter-spacing: 0em;
   text-align: left;
-  margin-top: 70px;
+  margin-top: 20px;
   width: 100%;
-  text-align: center;
 }
 
 .image{
@@ -37,5 +36,82 @@
   line-height: 32px;
   letter-spacing: 0em;
   text-align: left;
-  margin-top: 20px;
+  margin-top: 60px;
+}
+
+.post-buttons{
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 50px;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.post-likes{
+  width: 186px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.like{
+  width: 88px;
+  height:57px;
+  padding: 16px, 32px, 16px, 32px;
+  border-radius: 2px;
+  gap: 10px;
+  background-color: #E8E8E8;
+  border: none;
+}
+
+.dislike{
+  width: 88px;
+  height:56px;
+  padding: 16px, 32px, 16px, 32px;
+  border-radius: 2px;
+  gap: 10px;
+  background-color: #E8E8E8;
+  border: none;
+}
+
+.saved{
+  width: 237px;
+  height: 56px;
+  padding: 16px, 32px, 16px, 32px;
+  border-radius: 2px;
+  gap: 10px;
+  background-color: #E8E8E8;
+  border: none;
+}
+
+.container_chapter{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.name_ofchapter{
+  color: #8D8E97;
+  margin-left: 5px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.name_ofpage{
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.chapter{
+  display: flex;
 }

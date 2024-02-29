@@ -1,11 +1,5 @@
 // import "@testing-library/user-event/dist/"
-
-interface IButton{
-    isDisabled: boolean,
-    clickFunction?: () => void,
-    typeButton?: string,
-    children?: string
-}   
+import IButton from '../interfaces/BlogInterface'
     
 export default function Button({children, isDisabled, clickFunction, typeButton}:IButton) {
     return(

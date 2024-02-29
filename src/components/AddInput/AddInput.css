@@ -1,0 +1,38 @@
+.add_post_container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.add_input{
+  height: 790px;
+}
+
+.title_inputs {
+  font-family: Inter;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.add_title{
+  background-color: transparent;
+  width: 1118px;
+  height: 56px;
+  border: none;
+  border-radius: 2px;
+  background-color: #fff;
+  margin-bottom: 50px;
+}
+
+.input_title {
+  background-color: transparent;
+  width: 1118px;
+  height: 56px;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 50px;
+}
