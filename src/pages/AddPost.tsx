@@ -1,18 +1,18 @@
 import Header from "../components/Header/Header"
 import '../components/AddInput/AddInput.css';
-import { Posts } from '../components/Data';
 import Chapters from '../components/Post/Chapter';
 import AddInput from "../components/AddInput/AddInput";
+import Footer from "../components/Footer/Footer";
+import '../components/Footer/Footer.css'
 
 export default function AddPost(){
 return(
   <>
-    <div className="header">
-      <Header name='AB'>{"Andrian Braslavski"}</Header>
-    </div>
+    <Header name='AB'>{"Andrian Braslavski"}</Header>
     <Chapters page={'Home |'}
               idOfPage={'Add post'}></Chapters>
     <AddInput />
+    <Footer/>
   </>
 )
 }

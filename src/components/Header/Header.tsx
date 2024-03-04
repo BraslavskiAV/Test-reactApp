@@ -1,4 +1,5 @@
 // import { Children } from "react";
+import { Link } from 'react-router-dom'
 import Icon from '../../assets/Icon-Menu.png'
 import Search from '../../assets/search 1.png'
 
@@ -6,11 +7,13 @@ export default function Header({ children, name }: { children?: string, name?: s
 
   return (
     <>
-      
+      <div className='header'>
         <div className="header-container">
-          <div className="burger">
-            <img src={Icon} alt='icon'></img>
-          </div>
+          {/* <Link className='burger_link' to={'/'}> */}
+            <div className="burger">
+              <img src={Icon} alt='icon'></img>
+            </div>
+          {/* </Link>  */}
           <div className='right-block'>
             <div className="search">
               <img src={Search} alt='search' className='header-search'></img>
@@ -21,7 +24,7 @@ export default function Header({ children, name }: { children?: string, name?: s
             </div>
           </div>
         </div>
-      
+      </div>
     </>
   )
 }

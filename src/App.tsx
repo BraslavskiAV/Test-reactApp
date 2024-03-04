@@ -1,21 +1,14 @@
 import './App.css';
 import '../src/components/Button/Button.css';
 import '../src/components/Tabs/Tabs.css';
-import Button from '../src/components/Button/Button';
-import Tabs from '../src/components/Tabs/Tabs'
+// import Button from '../src/components/Button/Button';
+// import Tabs from '../src/components/Tabs/Tabs'
+import Header from './components/Header/Header';
+import Head from './pages/Main';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
 function App() {
-
-  const alertOne = function (): void {
-    alert("Button primary")
-  }
-  const alertTwo = function (): void {
-    alert("Button secondary")
-  }
-  const alertThree = function (): void {
-    alert("Button secondary 2")
-  }
 
   return (
     <>
@@ -78,6 +71,14 @@ function App() {
         <Tabs isDisabled={true}
               typeButton='myTab popular'>Popular</Tabs>
       </div> */}
+      {/* <BrowserRouter>
+        <div className="header">
+            <Header name='AB'>{"Andrian Braslavski"}</Header>
+        </div>
+        <Routes>
+          <Route path='/' element={<Head/>}></Route>
+        </Routes>
+      </BrowserRouter> */}
     </>
   );
 }

@@ -12,16 +12,9 @@ import { Posts } from '../components/Data';
 import MiddleBlog from '../components/Blog/MiddleBlog';
 import LittleBlog from '../components/Blog/LittleBlog';
 import Pagination from '../components/Pagination/Paginayion';
-
+import Footer from '../components/Footer/Footer';
 
 export default function Head() {
-  // const blogDate = function (): any {
-  //   const today = new Date();
-  //   const dd = String(today.getDate()).padStart(2, '0');
-  //   const mm = String(today.getMonth() + 1).padStart(2, '0');
-  //   const yyyy = today.getFullYear();
-  //   return `${dd}.${mm}.${yyyy}`;
-  // }
 
   const alertButton = function (): void {
     alert("Button left")
@@ -29,9 +22,7 @@ export default function Head() {
 
   return (
     <>
-      <div className="header">
-        <Header name='AB'>{"Andrian Braslavski"}</Header>
-      </div>
+      <Header name='AB'>{"Andrian Braslavski"}</Header>
       <div className='tabs'>
         <p className='title-blog'>{'Blog'}</p>
         <div className="tabs-container">
@@ -102,6 +93,7 @@ export default function Head() {
         anyPage='5'
         page='1'> Next </Pagination>
       </div>
+      <Footer/>
     </>
   )
 }
