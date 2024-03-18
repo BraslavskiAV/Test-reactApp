@@ -71,14 +71,14 @@ function App() {
         <Tabs isDisabled={true}
               typeButton='myTab popular'>Popular</Tabs>
       </div> */}
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <div className="header">
             <Header name='AB'>{"Andrian Braslavski"}</Header>
         </div>
         <Routes>
           <Route path='/' element={<Head/>}></Route>
         </Routes>
-      </BrowserRouter> */}
+      </BrowserRouter>
     </>
   );
 }

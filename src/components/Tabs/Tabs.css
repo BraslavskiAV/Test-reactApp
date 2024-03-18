@@ -5,6 +5,18 @@
   border: none;
 }
 
+.favorite:hover{
+  color:#2231AA;
+}
+
+.all:hover{
+  color:#2231AA;
+}
+
+.popular:hover{
+  color:#2231AA;
+}
+
 .tabs{
   width: 100%;
 }
@@ -48,6 +60,7 @@
   width: 176px;
   height: 48px;
   padding: 0px, 40px, 24px, 40px;
+  cursor: pointer;
 }
 
 .popular{

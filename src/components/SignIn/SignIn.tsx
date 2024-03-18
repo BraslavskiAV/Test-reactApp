@@ -18,7 +18,7 @@ function SignIn() {
           <div className="input_container">
             <div className="input_item">
               <p className="name_title">Email</p>
-              <input className="signup_email" placeholder="Your email..."></input>
+              <input content="Email" className="signup_email" placeholder="Your email..."></input>
             </div>
             <div className="input_item">
               <p className="name_title">Password</p>

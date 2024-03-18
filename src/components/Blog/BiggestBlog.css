@@ -7,6 +7,11 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
+}
+
+.title:hover{
+  color:#2231AA;
 }
 
 .block-left{

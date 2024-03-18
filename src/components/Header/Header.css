@@ -30,15 +30,27 @@ body{
   justify-content: center;
   border-left: 1px solid #ffffff31;
   border-right: 1px solid #ffffff31;
+  cursor: pointer;
 }
 
-.burger{
+.search:hover{
+  background-color: #5360CD;
+}
+
+.header__menu{
   width: 84px;
   height: 84px;
   display: flex;
   align-items: center;
   justify-content: center;
+  border: none;
   border-right: 1px solid #ffffff31;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.header__menu:hover{
+  background-color: #5360CD;
 }
 
 .user-container{

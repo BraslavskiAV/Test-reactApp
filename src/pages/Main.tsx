@@ -4,6 +4,7 @@ import '../components/Blog/MiddleBlog.css';
 import '../components/Like/Like.css';
 import '../components/Blog/LittleBlog.css';
 import '../components/Pagination/Pagination.css';
+import '../components/Tabs/Tabs.css';
 import Header from '../components/Header/Header';
 import BiggestBlog from '../components/Blog/BiggestBlog';
 import Tabs from '../components/Tabs/Tabs';
