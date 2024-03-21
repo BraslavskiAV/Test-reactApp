@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Iblog from '../interfaces/BlogInterface'
 
 
@@ -7,7 +8,9 @@ export default function BiggestBlog({ date, title, subtitle, source}: Iblog) {
       <div className="block-text">
         <div className="text">
           <p className="date">{date}</p>
-          <h1 className="title">{title}</h1>
+          <Link to={'/blog'} className='title__link'>
+            <p className="title">{title}</p>
+          </Link>
           <p className="subtitle">{subtitle}</p>
         </div>
         <div className="img">

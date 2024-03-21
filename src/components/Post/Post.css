@@ -115,3 +115,15 @@
 .chapter{
   display: flex;
 }
+
+.chapter__link{
+  color: black;
+}
+
+.chapter__link:hover{
+  color: #8D8E97;
+}
+
+.chapter__link:link{
+  text-decoration: none;
+}

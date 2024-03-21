@@ -28,9 +28,11 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  border: none;
   border-left: 1px solid #ffffff31;
   border-right: 1px solid #ffffff31;
   cursor: pointer;
+  background-color: transparent;
 }
 
 .search:hover{

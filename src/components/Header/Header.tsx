@@ -9,14 +9,17 @@ export default function Header({ children, name }: { children?: string, name?: s
     <>
       <div className='header'>
         <div className="header-container">
-          <Link className='burger_link' to={'/'}>MAIN</Link>
+          <Link className='burger_link' to={'/'}>
             <button className="header__menu">
               <img src={Icon} alt='icon'></img>
-            </button>
+            </button> 
+          </Link>
           <div className='right-block'>
-            <div className="search">
+            <Link className="search__link" to={'/SignIn'}>
+            <button className="search">
               <img src={Search} alt='search' className='header-search'></img>
-            </div>
+            </button>
+            </Link>
             <div className="user-container">
               <div className="icon">{name}</div>
               <p className="username">{children}</p>

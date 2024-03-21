@@ -5,7 +5,7 @@ import '../components/Like/Like.css';
 import '../components/Blog/LittleBlog.css';
 import '../components/Pagination/Pagination.css';
 import '../components/Tabs/Tabs.css';
-import Header from '../components/Header/Header';
+import '../components/SignUp/SignUp.css'
 import BiggestBlog from '../components/Blog/BiggestBlog';
 import Tabs from '../components/Tabs/Tabs';
 import LikeButton from '../components/Like/Like';
@@ -14,6 +14,7 @@ import MiddleBlog from '../components/Blog/MiddleBlog';
 import LittleBlog from '../components/Blog/LittleBlog';
 import Pagination from '../components/Pagination/Paginayion';
 import Footer from '../components/Footer/Footer';
+import Header from '../components/Header/Header';
 
 export default function Head() {
 
@@ -23,7 +24,9 @@ export default function Head() {
 
   return (
     <>
+    <div className='head'>
       <Header name='AB'>{"Andrian Braslavski"}</Header>
+    </div>
       <div className='tabs'>
         <p className='title-blog'>{'Blog'}</p>
         <div className="tabs-container">

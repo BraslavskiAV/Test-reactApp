@@ -14,6 +14,22 @@
   color:#2231AA;
 }
 
+.title__link{
+  color: black;
+}
+
+.title__link:visited{
+  text-decoration: none;
+}
+
+.title__link:link{
+  text-decoration: none;
+}
+
+.title__link:active{
+  text-decoration: none;
+}
+
 .block-left{
   width: 70%;
 }
