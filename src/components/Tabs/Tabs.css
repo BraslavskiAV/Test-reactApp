@@ -1,8 +1,9 @@
 .tab{
-  color: black;
-  font-size: 18px;
-  text-align: center;
-  border: none;
+  width: 130px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .favorite:hover{
@@ -29,18 +30,44 @@
   margin-bottom: 64px;
 }
 
-.title-blog{
+.title-bloglight{
   width: 80%;
   margin: 0 auto;
-  margin-top: 72px;
+  margin-top: 40px;
   margin-bottom: 40px;
   font-size: 56px;
   font-weight: 700;
   font-family: inter;
 }
 
-.myTab{
+.title-blogdark{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 56px;
+  font-weight: 700;
+  font-family: inter;
+}
+
+.myTablight{
   color: black;
+  font-size: 18px;
+  text-align: center;
+  border: none;
+  border: none; 
+  outline: none;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.myTabdark{
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  border: none;
   border: none; 
   outline: none;
   background-color: transparent;

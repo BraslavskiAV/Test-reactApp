@@ -1,3 +1,5 @@
+import { myContext } from '../providers/themeCon';
+import { useContext } from 'react';
 
 interface ITabs{
   typeButton?: string,
@@ -8,6 +10,8 @@ interface ITabs{
 
 export default function Tabs({children, isDisabled, typeButton, clickFunction}:ITabs){
   
+  const [color, setColor] = useContext(myContext);
+
   return(
     <div className="tab">
       <button className={typeButton}

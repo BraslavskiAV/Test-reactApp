@@ -1,10 +1,13 @@
+import { Link } from "react-router-dom";
 
 
 function SignUp() {
   return (  
     <>
     <div className="signup_container">
-      <p className="signup_nav">Back to home</p>
+      <Link to={'/'}>
+      <button className="signup_nav">Back to home</button>
+      </Link>
       <p className="signup_title">Sign Up</p>
       <div className="input_block">
         <div className="input_container">
@@ -28,7 +31,9 @@ function SignUp() {
             <button className="button_signup">Sign Up</button>
             <div className="button_for_signin">
               <p className="description_for_signin">Already have an account?</p>
-              <button className="signin">Sing in</button>
+              <Link to={'/signin'}>
+                <button className="signin">Sing in</button>
+              </Link>
             </div>
           </div>
         </div>

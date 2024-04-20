@@ -11,15 +11,18 @@
 
 .signin_nav {
   font-family: Inter;
-  width: 80%;
+  width: 15%;
+  height: 36px;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
   color: #313037;
-  padding-top: 60px;
-  margin-top: 0px;
+  margin-top: 60px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .signin_title {
